@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+build_*/
+bin/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Test and media files
+*.bin
+*.log
+*.pcap
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
